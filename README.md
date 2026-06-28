@@ -140,19 +140,19 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for increasing 
 ```
 </details>
 <details>
-<summary>$p=10^{40}+121$,&nbsp; found by <a href="https://www.alexamclain.com/">Alexa McLain</a> using GPT 5.5 - Extra High with <a href="https://github.com/alexamclain/OneShotPrimalityProofs/blob/main/parallel_search_oneshot.py">parallel_search_oneshot.py</a> in this repo (8 workers; about 15 wall seconds for the successful parallel run, after an earlier ~10 CPU-minute single-worker attempt).</summary>
+<summary>$p=10^{40}+121$,&nbsp; found by <a href="https://alexamclain.com/">Alexa McLain</a> using GPT 5.5 - Extra High with <a href="https://github.com/alexamclain/OneShotPrimalityProofs/blob/main/parallel_search_oneshot.py">parallel_search_oneshot.py</a> in this repo (8 workers; about 15 wall seconds for the successful parallel run, after an earlier ~10 CPU-minute single-worker attempt).</summary>
 ```
 10000000000000000000000000000000000000121 159417335712131629150530624126527065617 6380001157648721637516633150027366007494 105540040423836213192
 ```
 </details>
 <details>
-<summary>$p=10^{41}+109$,&nbsp; found by <a href="https://www.alexamclain.com/">Alexa McLain</a> using GPT 5.5 - Extra High with <a href="https://github.com/alexamclain/OneShotPrimalityProofs/blob/main/parallel_search_oneshot.py">parallel_search_oneshot.py</a> in this repo (8 workers; about 5 wall minutes / 40 CPU minutes).</summary>
+<summary>$p=10^{41}+109$,&nbsp; found by <a href="https://alexamclain.com/">Alexa McLain</a> using GPT 5.5 - Extra High with <a href="https://github.com/alexamclain/OneShotPrimalityProofs/blob/main/parallel_search_oneshot.py">parallel_search_oneshot.py</a> in this repo (8 workers; about 5 wall minutes / 40 CPU minutes).</summary>
 ```
 100000000000000000000000000000000000000109 39435640101422654764599095494847602099232 36831500717974458616819433974636974324447 363491440182266265472
 ```
 </details>
 <details>
-<summary>$p=10^{42}+63$,&nbsp; found by <a href="https://www.alexamclain.com/">Alexa McLain</a> using GPT 5.5 - Extra High with <a href="https://github.com/alexamclain/OneShotPrimalityProofs/blob/main/parallel_search_oneshot.py">parallel_search_oneshot.py</a> in this repo (10 workers; about 85 wall seconds / 14 CPU minutes).</summary>
+<summary>$p=10^{42}+63$,&nbsp; found by <a href="https://alexamclain.com/">Alexa McLain</a> using GPT 5.5 - Extra High with <a href="https://github.com/alexamclain/OneShotPrimalityProofs/blob/main/parallel_search_oneshot.py">parallel_search_oneshot.py</a> in this repo (10 workers; about 85 wall seconds / 14 CPU minutes).</summary>
 ```
 1000000000000000000000000000000000000000063 343943387892846314235425590464547215426859 280823505882550748075957411703530911632701 1131366670427546681976
 ```
