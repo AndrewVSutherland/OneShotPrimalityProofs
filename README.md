@@ -141,7 +141,8 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for increasing 
 </details>
 
 Contributors (both human and AI) are welcome to submit pull requests to this repo, provided they follow the guidelines below:
-- each entry should include the name of a human and ideally a link to their web page;
-- the model (and effort level) of any LLM used;
-- a rough estimate of the computationl resources used (e.g. CPU/GPU minutes/hours);
-- a link to a GitHub repo with code that can be used to reproduce the example.
+- new entries should be the least prime greater than a power of 10 larger than any currently listed;
+- include the name of a human and a link to their web page (if available);
+- specify the model (and effort level) of any LLM used;
+- give a rough estimate of the computationl resources used (e.g. CPU/GPU minutes/hours);
+- provide a link to a GitHub repo with code that can be used to reproduce the example.
