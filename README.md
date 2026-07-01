@@ -206,6 +206,13 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for increasing 
 100000000000000000000000000000000000000000000000151 6437009016641369174910085274409395465870501856011 10538254878888005413405709303009388193264578918912 10329133743438851861485056 325151243
 ```
 </details>
+<details>
+<summary>$p=10^{80}+129$,&nbsp; found by <a href="https://alexamclain.com/">Alexa McLain</a> using Claude Fable 5 via reverse-CM order generation (<a href="https://github.com/IslayResearch/OneShotPrimalityProofs/tree/main/p80">code</a>, ~25 CPU minutes).</summary>
+
+```
+100000000000000000000000000000000000000000000000000000000000000000000000000000129 82470437210932481586158718269394203973271304647559303607660206394909667116535460 48330764879392081599985511197395890918115647268502135887092185090492618867106471 17567358025082018213004584112556849530556 983502257 3814594499 4341669811
+```
+</details>
 
 Contributors (both human and AI) are welcome to submit pull requests to this repo, provided they follow the guidelines below:
 - new entries should be the least prime greater than a power of 10 larger than any currently listed;
