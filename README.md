@@ -88,57 +88,9 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for increasing 
 ```
 </details>
 <details>
-<summary>$p=10^{31}+33$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~3 CPU seconds).</summary>
-```
-10000000000000000000000000000033 1569321684903152408827641113136 5654198663631043026701645643834 3313183492084040 158551 4882393
-```
-</details>
-<details>
-<summary>$p=10^{32}+49$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~1 CPU second).</summary>
-```
-100000000000000000000000000000049 66474910464743596764054967879224 38828122544783994860995928050644 10293985643530744 9420863
-```
-</details>
-<details>
-<summary>$p=10^{33}+61$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~9 CPU seconds).</summary>
-```
-1000000000000000000000000000000061 353026367407525499860232502709688 929870072773368076702362066680356 47514019175283624 17053 64613 1796759
-```
-</details>
-<details>
-<summary>$p=10^{34}+193$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~17 CPU seconds).</summary>
-```
-10000000000000000000000000000000193 8739862166980634595241412376168643 3520620427933902296076932580876513 301416586545004223 44623 1067789 6325909
-```
-</details>
-<details>
 <summary>$p=10^{35}+69$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~26 CPU seconds).</summary>
 ```
 100000000000000000000000000000000069 43571634169656825484488799600262955 73324636112609490847888802702893858 14888340044140359809 734737 4341461 4667437
-```
-</details>
-<details>
-<summary>$p=10^{36}+67$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~21 CPU seconds).</summary>
-```
-1000000000000000000000000000000000067 546957193871014044620465668376155626 266789102886001254668936137853016622 1769979554256308244 1344943 13467863
-```
-</details>
-<details>
-<summary>$p=10^{37}+43$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~30 CPU seconds).</summary>
-```
-10000000000000000000000000000000000043 5237715629079103587149260467700428325 9472337478832328873104881584937490583 6186260659965100462 41863 12859657
-```
-</details>
-<details>
-<summary>$p=10^{38}+133$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~11 CPU seconds).</summary>
-```
-100000000000000000000000000000000000133 47587324196748505663342988875144682210 54979457230785623959485653018410163282 16591244954303207712 380197 687233
-```
-</details>
-<details>
-<summary>$p=10^{39}+3$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~16 CPU seconds).</summary>
-```
-1000000000000000000000000000000000000003 504583214550958244930738920650393491192 783954448462368567077571697557803213454 47479781621775216076 1892911 34868611
 ```
 </details>
 <details>
@@ -148,56 +100,9 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for increasing 
 ```
 </details>
 <details>
-<summary>$p=10^{41}+109$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~65 CPU seconds).</summary>
-```
-100000000000000000000000000000000000000109 87097305941929273427731132809962651081285 30823582247829528910553207214014982417129 544013220940041406102 31097609 47675417
-```
-</details>
-<details>
-<summary>$p=10^{42}+63$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~23 CPU seconds).</summary>
-```
-1000000000000000000000000000000000000000063 529506758815175640384490072508073810688326 930852371004292840865610811517730303303233 1220387101381184380733 26959 12462617
-```
-</details>
-<details>
-<summary>$p=10^{43}+57$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~40 CPU seconds).</summary>
-```
-10000000000000000000000000000000000000000057 2297567934978871941940436975827326448175793 5333694566450187539051303802957267613703452 3201092422777268935128 2382481 6766237
-```
-</details>
-<details>
-<summary>$p=10^{44}+31$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~17 CPU seconds).</summary>
-```
-100000000000000000000000000000000000000000031 83605012090025919814047942002681416414003837 20983291775532904412388654109140995110084027 10026627377625427845274 24223 24371 57075901
-```
-</details>
-<details>
 <summary>$p=10^{45}+9$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~169 CPU seconds).</summary>
 ```
 1000000000000000000000000000000000000000000009 445135896715836861872058430558119402113657317 580092437731663015231074250204120036653708361 35083798402964252071240 234187 536561 7129877
-```
-</details>
-<details>
-<summary>$p=10^{46}+121$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~74 CPU seconds).</summary>
-```
-10000000000000000000000000000000000000000000121 8151755648368274577008537475923202273172438992 5510692970318980714549217757764134621563504704 128800712446011313424307 27967 166541 3506023
-```
-</details>
-<summary>$p=10^{47}+33$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~107 CPU seconds).</summary>
-```
-100000000000000000000000000000000000000000000033 55112216345782201038699272011159355107796454764 95436945926088979849959572902251388077592257351 324092508714303587772108 563117 8053139 17363201
-```
-</details>
-<details>
-<summary>$p=10^{48}+193$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~48 CPU seconds).</summary>
-```
-1000000000000000000000000000000000000000000000193 707741292887771625707020666296880442101300419986 651661800356255754291649471544519774459713356937 1291577020489510362813952 63311 14471257
-```
-</details>
-<details>
-<summary>$p=10^{49}+9$,&nbsp; via <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/blob/main/oneshot.gp">oneshot.gp</a> (~48 CPU seconds).</summary>
-```
-10000000000000000000000000000000000000000000000009 7508802625092824753815795510429506581066157556192 7804725873907977597314105710897628490360424602840 4090193719245769518347680 777641 2107771 103286693
 ```
 </details>
 <details>
