@@ -21,6 +21,13 @@ certificate takes under a second to produce:
 
 Reproduce with `python3 supersingular.py` (pure Python, deterministic, prints
 the certificate above; verify with `python3 ../voneshot.py $(python3 supersingular.py)`).
-The script works for any prime p ≡ 3 mod 4 that passes the smooth-part gate —
-notably p = 2^521 − 1 (NIST P-521), where p+1 = 2^521 is entirely smooth and the
-certificate is a power-of-2 Pomerance triple.
+The script implements the general gate for any prime: [p ≡ 3 mod 4] AND
+[n⁴-smooth part of p+1 > L]. The first condition is not an implementation
+limit but a theorem of the format: every Montgomery curve has 4 | N, while
+the supersingular order p+1 ≡ 2 mod 4 whenever p ≡ 1 mod 4 — so for such p
+no supersingular curve admits a Montgomery model and the route is impossible
+(the script rejects with this explanation rather than attempting it).
+Notable passes: p = 2^521 − 1 (NIST P-521), where p+1 = 2^521 is entirely
+smooth and the certificate is a power-of-2 Pomerance triple, and the table's
+own 10^29 + 319, whose original brute-force certificate is reproduced by the
+gate in under a second (margin +7 bits).

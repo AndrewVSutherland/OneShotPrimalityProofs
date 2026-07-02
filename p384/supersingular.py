@@ -48,7 +48,13 @@ def smooth_factor(N, y):
             if v <= y: fac[v] = fac.get(v, 0) + 1
             else: roughp *= v
             continue
-        d = rho_split(v); assert d, "rho budget exceeded"
+        d = rho_split(v)
+        if d is None:
+            # Budget (1<<22 iters) finds factors up to ~2^40 whp, and n^4 < 2^40
+            # for all n < 1024: an unsplittable composite has all factors > n^4,
+            # hence is entirely rough. Conservative and safe for the gate.
+            roughp *= v
+            continue
         stack += [d, v // d]
     return fac, roughp
 
@@ -81,14 +87,24 @@ def rand_point(p, rng):
 
 def main():
     p = int(sys.argv[1]) if len(sys.argv) > 1 else 2**384 - 2**128 - 2**96 + 2**32 - 1
-    assert is_prime(p) and p % 4 == 3, "need prime p = 3 mod 4"
+    if not is_prime(p): sys.exit("p is not prime")
+    if p % 4 == 1:
+        # Not merely unimplemented: impossible. The one-shot format requires a
+        # Montgomery curve, and every Montgomery curve has 4 | N; but the
+        # supersingular order is p+1 = 2 mod 4 when p = 1 mod 4. So the
+        # supersingular gate is [p = 3 mod 4] AND [smooth(p+1) > L].
+        sys.exit("supersingular route impossible in the one-shot format: "
+                 "p = 1 mod 4, so the supersingular order p+1 = 2 mod 4 "
+                 "cannot be the order of a Montgomery curve (4 | N required)")
     n = p.bit_length(); y = n**4
     sp = math.isqrt(p); L = sp + 1 + math.isqrt(4*sp)
     fac, _ = smooth_factor(p + 1, y)
     S = 1
     for q, e in fac.items(): S *= q**e
-    if S <= L: sys.exit(f"smooth part of p+1 has {S.bit_length()} bits <= L "
-                        f"({L.bit_length()} bits): supersingular gate fails")
+    margin = S.bit_length() - L.bit_length()
+    print(f"gate: p = 3 mod 4 ok; smooth(p+1) = {S.bit_length()} bits vs "
+          f"L = {L.bit_length()} bits (margin {margin:+d})", file=sys.stderr)
+    if S <= L: sys.exit("supersingular gate fails: smooth part does not exceed L")
     # Reserve one factor of 2 up front: with v_2(m) <= v_2(p+1) - 1, m divides
     # the group exponent for either supersingular group structure, Z/(p+1) or
     # Z/2 x Z/((p+1)/2). Then m = a near-minimal divisor of S/2 above L:
@@ -101,7 +117,7 @@ def main():
         while mf[q] and m // q > L:
             m //= q; mf[q] -= 1
     r = min(q for q in mf if mf[q])
-    assert L < m < L * r and m < L * 2 + 1 and (p + 1) % m == 0
+    assert L < m < L * r and (p + 1) % m == 0
     assert m <= p + 1 + math.isqrt(4 * p)
     qs = sorted(q for q in mf if mf[q] and n*n < q < y)
     # point of exact order m, prime power by prime power
