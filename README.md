@@ -169,6 +169,13 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for various $n$
 ```
 </details>
 <details>
+<summary>$p=2^{384}-2^{128}-2^{96}+2^{32}-1$ (NIST P-384),&nbsp; <a href="https://alexamclain.com/">Alexa McLain</a> and Claude Fable 5 via the <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/tree/main/p384">supersingular shortcut</a> (&lt;1s, no search: the n&#8308;-smooth part of $p+1$ exceeds $L$, so the trace-0 curve $y^2=x^3+x$ works with $A=0$).</summary>
+
+```
+39402006196394479212279040100143613805079739270465446667948293404245721771496870329047266088258938001861606973112319 0 4175274830798286041899756280709154499563919256408856884352101796557004789991571158742257957651858293808361679587253 11536780045728150470386993180886018923731057780327784120320 1075237 6700417 22253377
+```
+</details>
+<details>
 <summary>$p=10^{80}+129$,&nbsp; <a href="https://alexamclain.com/">Alexa McLain</a> and Claude Fable 5 via <a href="https://github.com/IslayResearch/OneShotPrimalityProofs/tree/main/p80">reverse-CM order generation</a> (~25m CPU).</summary>
 
 ```
