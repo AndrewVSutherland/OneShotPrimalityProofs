@@ -148,7 +148,7 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for various $n$
 ```
 </details>
 <details>
-<summary>$p=10^{80}+129$,&nbsp; <a href="https://alexamclain.com/">Alexa McLain</a> and Claude Fable 5 via reverse-CM order generation (<a href="https://github.com/IslayResearch/OneShotPrimalityProofs/tree/main/p80">code</a>, ~25 CPU minutes).</summary>
+<summary>$p=10^{80}+129$,&nbsp; <a href="https://alexamclain.com/">Alexa McLain</a> and Claude Fable 5 via reverse-CM order generation (<a href="https://github.com/IslayResearch/OneShotPrimalityProofs/tree/main/p80">code</a>, ~25 CPUm).</summary>
 
 ```
 100000000000000000000000000000000000000000000000000000000000000000000000000000129 82470437210932481586158718269394203973271304647559303607660206394909667116535460 48330764879392081599985511197395890918115647268502135887092185090492618867106471 17567358025082018213004584112556849530556 983502257 3814594499 4341669811
@@ -177,14 +177,14 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for various $n$
 ```
 </details>
 <details>
-<summary>$p=10^{100}+267$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~8 minutes on 16 cores).</summary>
+<summary>$p=10^{100}+267$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~500s on 16 cores).</summary>
 
 ```
 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000267 1303605568953056679656519835890069231945056261099719079493144462625217066199094354664141180279406084 9297425805966447661709167147652926492522227990805155436263744355427229775148644776893432564525571420 133109540315876972450582869368293824379514903297199 118127 21489233 42051091 123206053 333120377
 ```
 </details>
 <details>
-<summary>$p=10^{105}+3$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~5 minutes on 16 cores).</summary>
+<summary>$p=10^{105}+3$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~300s on 16 cores).</summary>
 
 ```
 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003 107229584141991222635023530101245415439487680807002774607403367434756681948405983251223121135394736274754 283924384697557011640104124842719071234366581195969849149581150658890000276780146102159939761936685422393 46353451196469045982744310397963313944409977341120693 742253 34274521 128224441 249484523 1576468469 4304689031
@@ -195,6 +195,6 @@ Contributors (both human and AI) are welcome to submit pull requests to this rep
 - new entries should be the least prime greater than a power of 10 larger than any currently listed;
 - include the name of a human and a link to their web page (if available);
 - specify the model (and effort level) of any LLM used;
-- give a rough estimate of the computational resources used (e.g. CPU/GPU minutes/hours);
+- give a rough estimate of the computational resources used (e.g. CPU/GPUm/hours);
 - provide a link to a GitHub repo with code that can be used to reproduce the example.
 
