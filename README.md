@@ -148,7 +148,7 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for various $n$
 ```
 </details>
 <details>
-<summary>$p=10^{80}+129$,&nbsp; <a href="https://alexamclain.com/">Alexa McLain</a> and Claude Fable 5 via reverse-CM order generation (<a href="https://github.com/IslayResearch/OneShotPrimalityProofs/tree/main/p80">code</a>, ~25m CPU).</summary>
+<summary>$p=10^{80}+129$,&nbsp; <a href="https://alexamclain.com/">Alexa McLain</a> and Claude Fable 5 via <a href="https://github.com/IslayResearch/OneShotPrimalityProofs/tree/main/p80">reverse-CM order generation</a> (~25m CPU).</summary>
 
 ```
 100000000000000000000000000000000000000000000000000000000000000000000000000000129 82470437210932481586158718269394203973271304647559303607660206394909667116535460 48330764879392081599985511197395890918115647268502135887092185090492618867106471 17567358025082018213004584112556849530556 983502257 3814594499 4341669811
