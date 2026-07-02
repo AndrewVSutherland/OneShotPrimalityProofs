@@ -113,56 +113,56 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for various $n$
 ```
 </details>
 <details>
-<summary>$p=10^{55}+21$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~1s on 16 cores).</summary>
+<summary>$p=10^{55}+21$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~1s on 16 cores).</summary>
 
 ```
 10000000000000000000000000000000000000000000000000000021 7301475031374361535080075522771336209097048066987481974 6173834153687324988208255789263225553338976807106677666 22629477840921218317005780151 44383 1292429 4420139
 ```
 </details>
 <details>
-<summary>$p=10^{60}+7$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~1s on 16 cores).</summary>
+<summary>$p=10^{60}+7$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~1s on 16 cores).</summary>
 
 ```
 1000000000000000000000000000000000000000000000000000000000007 830110399961048501370209439146800545964774653303052106987822 298268227842950624646418770009243547891462938774568077449549 1870368881745889756085305770583 766813 1132639 1253249 2184151
 ```
 </details>
 <details>
-<summary>$p=10^{65}+49$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~1s on 16 cores).</summary>
+<summary>$p=10^{65}+49$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~1s on 16 cores).</summary>
 
 ```
 100000000000000000000000000000000000000000000000000000000000000049 69397864529375216513776535999986337394361058826206258935356508202 42263807855316775074995609583220755202348362869744021201467981989 382850234159733064321329488683694 93529 211319 1330223
 ```
 </details>
 <details>
-<summary>$p=10^{70}+33$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~3s on 16 cores).</summary>
+<summary>$p=10^{70}+33$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~3s on 16 cores).</summary>
 
 ```
 10000000000000000000000000000000000000000000000000000000000000000000033 4657918240794864663600468107142859528211157973012865214924916589954619 5842016358727341377590423667195843762086503605063812770939330326355949 149978862226141734763959283675972147 74507 2189183 33481957
 ```
 </details>
 <details>
-<summary>$p=10^{75}+129$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~7s on 16 cores).</summary>
+<summary>$p=10^{75}+129$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~7s on 16 cores).</summary>
 
 ```
 1000000000000000000000000000000000000000000000000000000000000000000000000129 275735573977776584341578365958662134102037737178052921570335739437008030239 90540804583116368247599614486383286453433172086081515460373141526347564870 132391591357272908574072744188508209119 360071 530653 756043 3273527 79091209
 ```
 </details>
 <details>
-<summary>$p=2^{255}-19$ (Curve25519),&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~4s on 16 cores).</summary>
+<summary>$p=2^{255}-19$ (Curve25519),&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~4s on 16 cores).</summary>
 
 ```
 57896044618658097711785492504343953926634992332820282019728792003956564819949 43723938096469358174465367825326655176206707707732910657972722225974945941308 21311565618644507407816902738495363844983006752308652924886881573350137817662 620439215492037406269509896993221375161 679409 770503 12519979 15032243 58136053
 ```
 </details>
 <details>
-<summary>$p=2^{256}-2^{224}+2^{192}+2^{96}-1$ (NIST P-256),&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~11s on 16 cores).</summary>
+<summary>$p=2^{256}-2^{224}+2^{192}+2^{96}-1$ (NIST P-256),&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~11s on 16 cores).</summary>
 
 ```
 115792089210356248762697446949407573530086143415290314195533631308867097853951 31876961143976350451814010923789929321342148528172788389881599220681980765532 102956281624811458658804951173109768062067867053364499628207790340470418295299 539761196047794833637967087233514371641 315811 376639 471641 38751877 67829561
 ```
 </details>
 <details>
-<summary>$p=2^{256}-2^{32}-977$ (secp256k1),&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~8s on 16 cores).</summary>
+<summary>$p=2^{256}-2^{32}-977$ (secp256k1),&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~8s on 16 cores).</summary>
 
 ```
 115792089237316195423570985008687907853269984665640564039457584007908834671663 92074940234742247234154060771259483398311224700956115778449625275249279054459 57674200289811738929746541688508114140790732124060843703810056650520398980304 447281840482061594290746269221377567953 70999 990179 1060379 1640071 61234213
@@ -177,35 +177,35 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for various $n$
 </details>
 
 <details>
-<summary>$p=10^{85}+103$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~90s on 16 cores).</summary>
+<summary>$p=10^{85}+103$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~90s on 16 cores).</summary>
 
 ```
 10000000000000000000000000000000000000000000000000000000000000000000000000000000000103 4843939831684294311089478529180818054321968623911860910157433414781193453412787410114 4139062708140937362931046438452287416173687175134250719056459402720937076329363517804 5494293751895023693949731379675000029022421 131779 12846697 640037653 655537633 982995407
 ```
 </details>
 <details>
-<summary>$p=10^{90}+289$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~24s on 16 cores).</summary>
+<summary>$p=10^{90}+289$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~24s on 16 cores).</summary>
 
 ```
 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000289 832901495234922943607064388115504600655650514310140681760977250138145905147480907225146062 94543528871990441267483137130131791599405532578388216635158312261736604103088033458257817 6338439815640971356836635757304716067267075333 887059 2168737 17585329 30478321 54463819 215810047
 ```
 </details>
 <details>
-<summary>$p=10^{95}+151$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~30s on 16 cores).</summary>
+<summary>$p=10^{95}+151$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~30s on 16 cores).</summary>
 
 ```
 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000151 9352182245283662093217379409142108593986998501318200549989016367079064503090525414310332511507 96825277534417718587592935702553637699461025901236927041422820534984227992483753530285152610404 1458689670355191586076367098280346729129390524517 168029 2956999 4844809 5770879 6996713 15960491 940304579
 ```
 </details>
 <details>
-<summary>$p=10^{100}+267$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~500s on 16 cores).</summary>
+<summary>$p=10^{100}+267$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~500s on 16 cores).</summary>
 
 ```
 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000267 1303605568953056679656519835890069231945056261099719079493144462625217066199094354664141180279406084 9297425805966447661709167147652926492522227990805155436263744355427229775148644776893432564525571420 133109540315876972450582869368293824379514903297199 118127 21489233 42051091 123206053 333120377
 ```
 </details>
 <details>
-<summary>$p=10^{105}+3$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code Fable 5 via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~300s on 16 cores).</summary>
+<summary>$p=10^{105}+3$,&nbsp; <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~300s on 16 cores).</summary>
 
 ```
 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003 107229584141991222635023530101245415439487680807002774607403367434756681948405983251223121135394736274754 283924384697557011640104124842719071234366581195969849149581150658890000276780146102159939761936685422393 46353451196469045982744310397963313944409977341120693 742253 34274521 128224441 249484523 1576468469 4304689031
