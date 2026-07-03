@@ -155,7 +155,7 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for various $n$
 ```
 </details>
 <details>
-<summary>$p=2^{256}-2^{224}+2^{192}+2^{96}-1$ (NIST P-256),&nbsp; <a href="https://math.mit.edu/~drew/">AVS</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~11s on 16 cores).</summary>
+<summary>$p=2^{256}-2^{224}+2^{192}+2^{96}-1$ (<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-186.pdf">NIST P-256</a>),&nbsp; <a href="https://math.mit.edu/~drew/">AVS</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~11s on 16 cores).</summary>
 
 ```
 115792089210356248762697446949407573530086143415290314195533631308867097853951 31876961143976350451814010923789929321342148528172788389881599220681980765532 102956281624811458658804951173109768062067867053364499628207790340470418295299 539761196047794833637967087233514371641 315811 376639 471641 38751877 67829561
@@ -219,14 +219,14 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for various $n$
 ```
 </details>
 <details>
-<summary>$p=2^{384}-2^{128}-2^{96}+2^{32}-1$ (NIST P-384),&nbsp; <a href="https://alexamclain.com/">Alexa McLain</a> and Claude Fable 5 via the <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/tree/main/p384">supersingular shortcut</a> (&lt;1s, no search: the n&#8308;-smooth part of $p+1$ exceeds $L$, so the trace-0 curve $y^2=x^3+x$ works with $A=0$).</summary>
+<summary>$p=2^{384}-2^{128}-2^{96}+2^{32}-1$ (<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-186.pdf">NIST P-384</a>),&nbsp; <a href="https://alexamclain.com/">Alexa McLain</a> and Claude Fable 5 via the <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/tree/main/p384">supersingular shortcut</a> (&lt;1s, no search: the n&#8308;-smooth part of $p+1$ exceeds $L$, so the trace-0 curve $y^2=x^3+x$ works with $A=0$).</summary>
 
 ```
 39402006196394479212279040100143613805079739270465446667948293404245721771496870329047266088258938001861606973112319 0 4175274830798286041899756280709154499563919256408856884352101796557004789991571158742257957651858293808361679587253 11536780045728150470386993180886018923731057780327784120320 1075237 6700417 22253377
 ```
 </details>
 <details>
-<summary>$p=2^{521}-1$ (NIST P-521, Mersenne),&nbsp; <a href="https://alexamclain.com/">Alexa McLain</a> and Claude Fable 5 via the <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/tree/main/p384">supersingular shortcut</a> ($p+1=2^{521}$ is entirely smooth, so $m=2^{261}$ on $y^2=x^3+x$ with $A=0$ is a power-of-2 Pomerance triple; &lt;1s).</summary>
+<summary>$p=2^{521}-1$ (<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-186.pdf">NIST P-521</a>, Mersenne),&nbsp; <a href="https://alexamclain.com/">Alexa McLain</a> and Claude Fable 5 via the <a href="https://github.com/AndrewVSutherland/OneShotPrimalityProofs/tree/main/p384">supersingular shortcut</a> ($p+1=2^{521}$ is entirely smooth, so $m=2^{261}$ on $y^2=x^3+x$ with $A=0$ is a power-of-2 Pomerance triple; &lt;1s).</summary>
 
 ```
 6864797660130609714981900799081393217269435300143305409394463459185543183397656052122559640661454554977296311391480858037121987999716643812574028291115057151 0 4350373126253585837362113068750883584822185692674743836505522151959223493984352531902858939506009947434102157350775724982692028246171455879800924906090660016 3705346855594118253554271520278013051304639509300498049262642688253220148477952
