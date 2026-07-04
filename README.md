@@ -213,7 +213,7 @@ Below is a list of one-shot ECPPs for the least prime $p > 10^n$ for various $n$
 ```
 </details>
 <details>
-<summary>$p=400240\ldots787$ (<a href="https://www.ietf.org/archive/id/draft-irtf-cfrg-pairing-friendly-curves-11.html#name-bls-curves-for-the-128-bit-">BLS12-381</a>), &nbsp; <a href="https://math.mit.edu/~drew/">AVS</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~180s on 256 cores).</summary>
+<summary>$p=400240\ldots787$ (<a href="https://www.ietf.org/archive/id/draft-irtf-cfrg-pairing-friendly-curves-11.html#name-bls-curves-for-the-128-bit-">BLS12-381</a>), &nbsp; <a href="https://math.mit.edu/~drew/">AVS</a> and Claude Code (Opus 4.8 and Fable 5) via <a href="https://github.com/AndrewVSutherland2/OneShotFastECPP">OneShotFastECPP</a> (~18s on 256 cores).</summary>
 ```
 4002409555221667393417789825735904156556882819939007885332058136124031650490837864442687629129015664037894272559787 3329676286010825108575997606169235433536099626134722164067690298423283998905513845694695512020725418102515210756127 670139839307682720438818281637757035926281760441044714821661036189912101078080547797497630005441885324531691944693 4296270986536107349841667585561638746686596651390492613931 225223 10271867 14487119 55013471 867466217
 ```
